@@ -111,9 +111,10 @@ Finally, check output folder "results" for results. The csv file shows the mean 
 
 To run AGRN using your own data, you should prepare the following data:
 1. bulk gene expression data, the row are genes, the column are samples.
-For example, final_Ecoli_cold.csv
+For example, final_Ecoli_cold.csv:
+
 | genename | rep1_T1     | rep1_T2     | rep1_T3     | rep1_T4     | rep1_T5     | rep1_T6     | rep1_T7     | rep1_T8      |
-|----------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|--------------|
+|  :----:  |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:   |    :----:    |
 | fis      | 7906.679678 | 8071.058674 | 6499.423349 | 7071.662477 | 6761.41511  | 6658.298389 | 4950.269701 | 1549.874613  |
 | rob      | 268.7634704 | 304.8048094 | 409.8485438 | 502.459958  | 526.747015  | 500.7725783 | 650.9777228 | 797.9063958  |
 | tyrR     | 153.6261072 | 165.0300588 | 162.9723776 | 175.0433137 | 145.9532194 | 149.480681  | 187.7007897 | 237.7467594  |
@@ -126,8 +127,9 @@ For example, final_Ecoli_cold.csv
 
 2. prior GRN with regulation type
 For examplw, Ecoli_GRN_3types.csv:
+
 | fis | adhE | activator  |
-|-----|------|------------|
+|:----:|:----:|   :----:   |
 | fis | apaG | activator  |
 | fis | apaH | activator  |
 | fis | carA | activator  |
@@ -139,9 +141,9 @@ For examplw, Ecoli_GRN_3types.csv:
 | fis | cyoD | activator  |
 
 3. gene list, the first column is the name of the gene, and the second column is the number of the gene, starting with 0
-For example, gene2205_2.txt
+For example, gene2205_2.txt:
 | name | ids  |
-|------|------|
+|:----:|:----:|
 | fis  | 0    |
 | rob  | 1    | 
 | tyrR | 2    |
@@ -152,7 +154,19 @@ For example, gene2205_2.txt
 | crp  | 7    |
 | cadC | 8    | 
 
-
+4. numbered version of the prior GRN. The gene names in the prior GRN with regulation type are converted to gene numbers.
+For example, Ecoli_GRN_3types_ids.tsv:
+| 0 | 175  |
+|:----:|:----:|
+| 0 | 178  |
+| 0 | 179  |
+| 0 | 183  |
+| 0 | 184  |
+| 0 | 91   |
+| 0 | 185  |
+| 0 | 186  |
+| 0 | 187  |
+| 0 | 188  |
 
 
 
