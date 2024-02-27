@@ -2,6 +2,7 @@
 This is the repository for the manuscript: DeepFGRN: Inference of gene regulatory network with regulation type based on directed graph embedding.
 
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
+
 <style>
 .center 
 {
