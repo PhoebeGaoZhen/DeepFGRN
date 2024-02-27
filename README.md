@@ -67,6 +67,7 @@ git clone -b master https://github.com/PhoebeGaoZhen/Demo3.git
 cd Demo3
 python deepGRN_DREAM5net1_FCV.py install --user
 ```
+Finally, check output folder "results" for results. The csv file shows the mean and standard deviation of AUROC, MCC, F1, Recall, Precision of DeepFGRN on this dataset.
 
 ## FGRN inference on E.coli cold stress network
 
