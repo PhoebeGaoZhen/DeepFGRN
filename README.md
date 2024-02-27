@@ -3,6 +3,15 @@ This is the repository for the manuscript: DeepFGRN: Inference of gene regulator
 
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
 
+
+
+
+
+
+
+# Datasets
+## datasets for FGRN (GRN with both direction and regulation type) inference 
+
 <style>
 .center 
 {
@@ -12,13 +21,6 @@ If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.c
   margin-right: auto;
 }
 </style>
-
-
-
-
-
-# Datasets
-## datasets for FGRN (GRN with both direction and regulation type) inference 
 
 <p align="center"><font face="黑体" size=2.>Datasets for FGRN (GRN with both direction and regulation type) inference </font></p>
 
