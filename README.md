@@ -13,12 +13,15 @@ If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.c
 }
 </style>
 
-<p align="center"><font face="黑体" size=2.>表1 示例表格</font></p>
+
 
 
 
 # Datasets
 ## datasets for FGRN (GRN with both direction and regulation type) inference 
+
+<p align="center"><font face="黑体" size=2.>Datasets for FGRN (GRN with both direction and regulation type) inference </font></p>
+
 <div class="center">
   
 | Species   | network | sourceE     |  sourceGRN     | numG     |dimE     |numA     |numR     |
