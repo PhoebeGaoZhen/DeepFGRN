@@ -1,6 +1,4 @@
 # DeepFGRN
-DeepFGRN: Inference of gene regulatory network with regulation type based on directed graph embedding
-
 This is the repository for the manuscript: DeepFGRN: Inference of gene regulatory network with regulation type based on directed graph embedding.
 
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
@@ -33,7 +31,7 @@ Note: numG is the number of genes in the corresponding dataset, dimE is the dime
 
 
 # Requirements
-Please configure the environment according to the following versions:
+Please install the following software before replicating this framework in your local or server machine.
 
 python=3.6.5
 
