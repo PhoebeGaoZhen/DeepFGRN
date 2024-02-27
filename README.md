@@ -6,17 +6,18 @@ This is the repository for the manuscript: DeepFGRN: Inference of gene regulator
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
 
 # Datasets
-| Species     | network | sourceE     |  sourceGRN     | numG     |dimE     |numA     |numR     |
-|   :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |
-| DREAM5     | network1 | DREAM5 challenge     |  DREAM5 challenge      | 1643     |  805     |  2236     |  1776     |
-| E.coli     | cold stress | GEO(GSE20305)   |  RegulonDB     | 2205     |  24     |  2070     |  2034     |
-| E.coli     | heat stress | GEO(GSE20305)   |  RegulonDB     | 2205     |  24     |  2070     |  2034     |
-| E.coli     | lactose     | GEO(GSE20305)   |  RegulonDB     | 2205     |  12     |  2070     |  2034     |
-| E.coli     | oxidative stress | GEO(GSE20305)   |  RegulonDB     | 2205     |  33     |  2070     |  2034     |
+| Species   | network | sourceE     |  sourceGRN     | numG     |dimE     |numA     |numR     |
+|   :----:  |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |
+| DREAM5    | network1 | DREAM5 challenge     |  DREAM5 challenge      | 1643     |  805     |  2236     |  1776     |
+| E.coli    | cold stress | GEO(GSE20305)   |  RegulonDB     | 2205     |  24     |  2070     |  2034     |
+| E.coli    | heat stress | GEO(GSE20305)   |  RegulonDB     | 2205     |  24     |  2070     |  2034     |
+| E.coli    | lactose     | GEO(GSE20305)   |  RegulonDB     | 2205     |  12     |  2070     |  2034     |
+| E.coli    | oxidative stress | GEO(GSE20305)   |  RegulonDB     | 2205     |  33     |  2070     |  2034     |
 | Human     | COVID-19 | GEND000389   |  TRR, Reg     | 2478     |  42     |  6452     |  1888     |
 | Human     | Breast cancer | GEND000024   |  TRR, Reg     | 2478     |  24     |  6452     |  1888     |
 | Human     | Liver cancer | GEND000025   |  TRR, Reg     | 2478     |  10     |  6452     |  1888     |
 | Human     | Lung cancer | GEND000176   |  TRR, Reg     | 2478     |  130     |  6452     |  1888     |
+Note: sourceE and sourceGRN represent databases that store gene expression data and prior gene regulatory network information, respectively, numG is the number of genes, dimE is the dimension of gene expression data, numA and numR represent the number of regulatory associations for known activation types and known repression types, respectively. TRR and Reg are TRRUST V2 and RegNetwork databases, respectively.
 
 # Requirements
 Please configure the environment according to the following versions:
