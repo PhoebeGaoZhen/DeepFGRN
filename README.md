@@ -62,11 +62,11 @@ DeepFGRN do not need GPU.
 
 ## FGRN inference on DREAM5 challenge network1
 Create a folder called "dDREAM5net1" and right-click ——open git bash here, Enter the following command
-'''
+```
 git clone -b master https://github.com/PhoebeGaoZhen/Demo3.git
 cd Demo3
 python deepGRN_DREAM5net1_FCV.py install --user
-'''
+```
 
 ## FGRN inference on E.coli cold stress network
 
