@@ -2,9 +2,24 @@
 This is the repository for the manuscript: DeepFGRN: Inference of gene regulatory network with regulation type based on directed graph embedding.
 
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
+<style>
+.center 
+{
+  width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<p align="center"><font face="黑体" size=2.>表1 示例表格</font></p>
+
+
 
 # Datasets
 ## datasets for FGRN (GRN with both direction and regulation type) inference 
+<div class="center">
+  
 | Species   | network | sourceE     |  sourceGRN     | numG     |dimE     |numA     |numR     |
 |   :----:  |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |
 | DREAM5    | network1 | DREAM5 challenge     |  DREAM5 challenge      | 1643     |  805     |  2236     |  1776     |
@@ -16,7 +31,7 @@ If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.c
 | Human     | Breast cancer | GEND000024   |  TRR, Reg     | 2478     |  24     |  6452     |  1888     |
 | Human     | Liver cancer | GEND000025   |  TRR, Reg     | 2478     |  10     |  6452     |  1888     |
 | Human     | Lung cancer | GEND000176   |  TRR, Reg     | 2478     |  130     |  6452     |  1888     |
-
+<div>
 Note: sourceE and sourceGRN represent databases that store gene expression data and prior gene regulatory network information, respectively, numG is the number of genes, dimE is the dimension of gene expression data, numA and numR represent the number of regulatory associations for known activation types and known repression types, respectively. TRR and Reg are TRRUST V2 and RegNetwork databases, respectively.
 
 ## datasets for regular GRN (GRN with only direction) inference 
