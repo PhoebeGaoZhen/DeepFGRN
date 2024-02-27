@@ -35,3 +35,46 @@ DeepFGRN do not need GPU.
 
 # Usage
 
+## FGRN inference on DREAM5 challenge network1
+
+
+## FGRN inference on E.coli cold stress network
+
+
+## FGRN inference on E.coli heat stress network
+
+
+
+## FGRN inference on E.coli lactose stress network
+
+
+
+
+## FGRN inference on E.coli oxidative stress network
+
+
+
+
+
+## FGRN inference on human breast cancer 
+
+
+
+## FGRN inference on human liver cancer 
+
+
+## FGRN inference on human lung cancer 
+
+
+
+
+## FGRN inference on human COVID
+
+
+
+
+## Regular directed GRN inference on DREAM5 network 1-4
+
+
+
+
