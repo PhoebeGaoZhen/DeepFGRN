@@ -6,6 +6,7 @@ This is the repository for the manuscript: DeepFGRN: Inference of gene regulator
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
 
 # Datasets
+## datasets for FGRN (GRN with both direction and regulation type) inference 
 | Species   | network | sourceE     |  sourceGRN     | numG     |dimE     |numA     |numR     |
 |   :----:  |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |  :----:    |
 | DREAM5    | network1 | DREAM5 challenge     |  DREAM5 challenge      | 1643     |  805     |  2236     |  1776     |
@@ -19,6 +20,17 @@ If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.c
 | Human     | Lung cancer | GEND000176   |  TRR, Reg     | 2478     |  130     |  6452     |  1888     |
 
 Note: sourceE and sourceGRN represent databases that store gene expression data and prior gene regulatory network information, respectively, numG is the number of genes, dimE is the dimension of gene expression data, numA and numR represent the number of regulatory associations for known activation types and known repression types, respectively. TRR and Reg are TRRUST V2 and RegNetwork databases, respectively.
+
+## datasets for regular GRN (GRN with only direction) inference 
+| Network   | Organism | numG     |  dimE     | numKA     |
+|   :----:  |  :----:    |  :----:    |  :----:    |  :----:    |
+| network1    | in silico    | 1643  | 805  | 4012  |
+| network2    | S.aureus     | 2810  | 160  | 518   |
+| network3    | E.coli       | 4511  |  805 | 2066  |
+| network4    | S.cerevisiae | 5950  |  536 | 3940  | 
+
+Note: numG is the number of genes in the corresponding dataset, dimE is the dimension of gene expression profile, numA is the number of known regulatory associations. 
+
 
 # Requirements
 Please configure the environment according to the following versions:
