@@ -13,13 +13,21 @@ If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.c
 ## datasets for FGRN (GRN with both direction and regulation type) inference 
 
 <style>
+  
 .center 
+  
 {
+  
   width: auto;
+  
   display: table;
+  
   margin-left: auto;
+  
   margin-right: auto;
+  
 }
+  
 </style>
 
 <p align="center"><font face="黑体" size=2.>Datasets for FGRN (GRN with both direction and regulation type) inference </font></p>
