@@ -142,6 +142,7 @@ For examplw, Ecoli_GRN_3types.csv:
 
 3. gene list, the first column is the name of the gene, and the second column is the number of the gene, starting with 0
 For example, gene2205_2.txt:
+
 | name | ids  |
 |:----:|:----:|
 | fis  | 0    |
@@ -156,6 +157,7 @@ For example, gene2205_2.txt:
 
 4. numbered version of the prior GRN. The gene names in the prior GRN with regulation type are converted to gene numbers.
 For example, Ecoli_GRN_3types_ids.tsv:
+
 | 0 | 175  |
 |:----:|:----:|
 | 0 | 178  |
