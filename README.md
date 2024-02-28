@@ -65,50 +65,89 @@ DeepFGRN do not need GPU.
 ## FGRN inference on DREAM5 challenge network1
 Create a folder called "dDREAM5net1" and right-click ——open git bash here, Enter the following command
 ```
-git clone -b master https://github.com/PhoebeGaoZhen/Demo3.git
-cd Demo3
-python deepGRN_DREAM5net1_FCV.py install --user
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd DREAM5_net1_FGRN
+python DeepFGRN_DREAM5net1_FCV.py install --user
 ```
+
 Finally, check output folder "results" for results. The csv file shows the mean and standard deviation of AUROC, MCC, F1, Recall, Precision of DeepFGRN on this dataset.
 
 ## FGRN inference on E.coli cold stress network
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd Ecoli_cold_FGRN
+python DeepFGRN_cold_FCV.py install --user
+```
 ## FGRN inference on E.coli heat stress network
-
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd Ecoli_heat_FGRN
+python DeepFGRN_heat_FCV.py install --user
+```
 ## FGRN inference on E.coli lactose stress network
-
-
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd Ecoli_lactose_FGRN
+python DeepFGRN_lactose_FCV.py install --user
+```
 ## FGRN inference on E.coli oxidative stress network
 
-
-
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd Ecoli_oxidative_FGRN
+python DeepFGRN_oxidative_FCV.py install --user
+```
 ## FGRN inference on human breast cancer 
 
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd human_breast_FGRN
+python DeepFGRN_Breast_FCV.py install --user
+```
 ## FGRN inference on human liver cancer 
 
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd human_liver_FGRN
+python DeepFGRN_Liver_FCV.py install --user
+```
 ## FGRN inference on human lung cancer 
 
-
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd human_lung_FGRN
+python DeepFGRN_Lung_FCV.py install --user
+```
 ## FGRN inference on human COVID
 
-
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd human_COVID_FGRN
+python DeepFGRN_COVID_FCV.py install --user
+```
 ## Regular directed GRN inference on DREAM5 network 1-4
-
-
+```
+git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
+cd DeepFGRN
+cd regularGRN
+# regular GRN inference on DREAM5 challenge network1
+python DeepFGRN_DREAM5net1_FCV.py install --user
+# regular GRN inference on DREAM5 challenge network2
+python DeepFGRN_DREAM5net2_FCV.py install --user
+# regular GRN inference on DREAM5 challenge network3
+python DeepFGRN_DREAM5net3_FCV.py install --user
+# regular GRN inference on DREAM5 challenge network4
+python DeepFGRN_DREAM5net4_FCV.py install --user
+```
 ## Own datasets
 
 To run AGRN using your own data, you should prepare the following data:
