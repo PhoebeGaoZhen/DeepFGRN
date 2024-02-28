@@ -43,16 +43,6 @@ tensorflow==1.9.0
 
 scikit-learn==0.22.1
 
-numpy
-
-pandas
-
-random
-
-math
-
-re
-
 System: Windows 10
 
 We run the program in pyCharm.
