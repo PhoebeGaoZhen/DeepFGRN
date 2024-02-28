@@ -117,7 +117,7 @@ cd DeepFGRN
 cd human_lung_FGRN
 python DeepFGRN_Lung_FCV.py install --user
 ```
-## FGRN inference on human COVID
+## FGRN inference on human COVID-19
 
 ```
 git clone -b master https://github.com/PhoebeGaoZhen/DeepFGRN.git
@@ -139,7 +139,7 @@ python DeepFGRN_DREAM5net3_FCV.py install --user
 # regular GRN inference on DREAM5 challenge network4
 python DeepFGRN_DREAM5net4_FCV.py install --user
 ```
-## Own datasets
+## FGRN inference on your own datasets
 
 1. To run AGRN using your own data, you should prepare the following data:
 (1) bulk gene expression data, the row are genes, the column are samples.
@@ -212,8 +212,19 @@ Then, set "path_network_ids" in DeepFGRN_cold_FCV.py to the path of this dataset
 
 2. Run the DeepFGRN_cold_FCV.py
 
+# Authors
+Zhen Gao ,1 Yansen Su,2 Junfeng Xia,3 Rui-Fen Cao,1 Yun Ding,2 Chun-Hou Zheng2,∗ and Pi-Jing Wei3,∗
 
+1 The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Computer Science and Technology, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui, China
 
+2 The Key Laboratory of Intelligent Computing and Signal Processing of Ministry of Education, School of Artificial Intelligence, Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui, China and
+
+3 Information Materials and Intelligent Sensing Laboratory of Anhui Province, Institute of Physical Science and Information Technology,
+Anhui University, 111 Jiulong Road, Hefei, 230601, Anhui, China
+
+∗Corresponding author. zhengch99@126.com, weipj@ahu.edu.cn
+
+Zhen Gao: gaozhenchn@163.com
 
 
 
