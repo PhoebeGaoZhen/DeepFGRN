@@ -141,8 +141,8 @@ python DeepFGRN_DREAM5net4_FCV.py install --user
 ```
 ## Own datasets
 
-To run AGRN using your own data, you should prepare the following data:
-1. bulk gene expression data, the row are genes, the column are samples.
+1. To run AGRN using your own data, you should prepare the following data:
+(1) bulk gene expression data, the row are genes, the column are samples.
 For example, final_Ecoli_cold.csv:
 
 | genename | rep1_T1     | rep1_T2     | rep1_T3     | rep1_T4     | rep1_T5     | rep1_T6     | rep1_T7     | rep1_T8      |
@@ -157,7 +157,9 @@ For example, final_Ecoli_cold.csv:
 | crp      | 479.9922059 | 542.4784364 | 421.771247  | 415.0021528 | 393.1588899 | 379.9352762 | 425.9823301 | 751.7603158  |
 | cadC     | 4.372161138 | 3.933822191 | 8.369199648 | 6.989615816 | 8.913259285 | 8.942484856 | 9.061118141 | 13.46661152  |
 
-2. prior GRN with regulation type
+Then, set "path_expression" in DeepFGRN_cold_FCV.py to the path of this dataset.
+
+(2) prior GRN with regulation type
 For examplw, Ecoli_GRN_3types.csv:
 
 | fis | adhE | activator  |
@@ -172,7 +174,9 @@ For examplw, Ecoli_GRN_3types.csv:
 | fis | cyoC | activator  |
 | fis | cyoD | activator  |
 
-3. gene list, the first column is the name of the gene, and the second column is the number of the gene, starting with 0
+Then, set "path_network_name_type" in DeepFGRN_cold_FCV.py to the path of this dataset.
+
+(3) gene list, the first column is the name of the gene, and the second column is the number of the gene, starting with 0
 For example, gene2205_2.txt:
 
 | name | ids  |
@@ -187,7 +191,9 @@ For example, gene2205_2.txt:
 | crp  | 7    |
 | cadC | 8    | 
 
-4. numbered version of the prior GRN. The gene names in the prior GRN with regulation type are converted to gene numbers.
+Then, set "path_node" in DeepFGRN_cold_FCV.py to the path of this dataset.
+
+(4) numbered version of the prior GRN. The gene names in the prior GRN with regulation type are converted to gene numbers.
 For example, Ecoli_GRN_3types_ids.tsv:
 
 | 0 | 175  |
@@ -202,6 +208,9 @@ For example, Ecoli_GRN_3types_ids.tsv:
 | 0 | 187  |
 | 0 | 188  |
 
+Then, set "path_network_ids" in DeepFGRN_cold_FCV.py to the path of this dataset.
+
+2. Run the DeepFGRN_cold_FCV.py
 
 
 
