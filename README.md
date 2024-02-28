@@ -70,6 +70,7 @@ cd DeepFGRN
 cd DREAM5_net1_FGRN
 python DeepFGRN_DREAM5net1_FCV.py install --user
 ```
+![Image](https://github.com/PhoebeGaoZhen/DeepFGRN/assets/54731874/03b096b1-adc2-42c2-8cd3-ada15cebf213)
 
 Finally, check output folder "results" for results. The csv file shows the mean and standard deviation of AUROC, MCC, F1, Recall, Precision of DeepFGRN on this dataset.
 
