@@ -3,6 +3,8 @@ This is the repository for the manuscript: DeepFGRN: Inference of gene regulator
 
 If you have any questions or feedback, please contact Zhen Gao (gaozhenchn@163.com)
 
+We also have share the datasets, trained models, and prediction results on Zenodo at https://zenodo.org/records/10720363.
+
 # Datasets
 ## datasets for FGRN (GRN with both direction and regulation type) inference 
   
