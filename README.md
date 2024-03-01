@@ -141,7 +141,7 @@ python DeepFGRN_DREAM5net3_FCV.py install --user
 # regular GRN inference on DREAM5 challenge network4
 python DeepFGRN_DREAM5net4_FCV.py install --user
 ```
-## FGRN inference on your own datasets
+## FGRN inference on your datasets
 
 1. To run AGRN using your own data, you should prepare the following data:
 (1) bulk gene expression data, the row are genes, the column are samples.
